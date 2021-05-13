@@ -15,7 +15,7 @@ To run, first run install the required libraries from requirements.txt with:
 pip install -r requirements.txt
 ```
 
-You will need to run install python dependencies for YOLOv5, Deep Sort, TensorFlow, and Pytorch. You will also need to download the NYU Depth Dataset as described in the README for FCRN. Then run:
+You will need to install python dependencies for YOLOv5, Deep Sort, TensorFlow, and Pytorch. This is described in the README for each project. Additionally, you will need to download the NYU Depth Dataset as described in the README for FCRN. Place it in the root directory and then run:
 
 ```
 python predictdepth.py NYU_FCRN.ckpt img.jpg
